@@ -1,0 +1,18 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+MaxQ.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Local signing settings (Team ID stays out of git)
+Config/Local.xcconfig
+
+# Release staging
+dist/
+*.dmg
+*.xcarchive
+
+# macOS
+.DS_Store

@@ -1,0 +1,32 @@
+Max Q
+Copyright 2026 Myrhex
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Portions of Max Q (the address bar's domain display, page text extraction and the page
+translation DOM pass) were adapted from Searxly by the same copyright holder, who licenses
+those portions under the Apache License, Version 2.0 as part of Max Q.
+
+Max Q bundles Geist Mono, Copyright (c) 2023 Vercel, in collaboration with basement.studio,
+under the SIL Open Font License, Version 1.1 (see MaxQ/Fonts/GeistMono-OFL.txt).
+
+Max Q uses Sparkle (https://sparkle-project.org), Copyright (c) Andy Matuschak and the
+Sparkle Project contributors, under the MIT License. Full text:
+https://github.com/sparkle-project/Sparkle/blob/2.x/LICENSE
+
+Max Q is an independent project. It is not affiliated with, endorsed by, or sponsored by
+SpaceXAI, xAI, X Corp., SpaceX, Brave Software or Duck Duck Go, Inc. Grok, Grokipedia, Grok
+Bot, X, Brave and DuckDuckGo are trademarks of their respective owners and are used only to
+identify the services Max Q works with. No logos or other brand assets of those companies
+are included in this repository; site icons shown in the app are loaded at runtime from the
+search results or from the sites themselves.
+
+Max Q contains no content from those services. Everything it shows is fetched at runtime on
+the user's own Mac, with the user's own keys and accounts, through each service's published
+ways in (see README.md, "Where things come from"). Grokipedia content is subject to the
+SpaceXAI Community License Agreement and, for some articles, CC BY-SA 4.0; Max Q credits and
+links each article it shows. Content Grok generates is credited "Written with Grok" or
+"Created with Grok" when shared, as SpaceXAI's brand guidelines ask.
+
+Weather data: Open-Meteo (open-meteo.com), CC BY 4.0. Exchange rates: Frankfurter, from the
+European Central Bank. Launch data: The Space Devs' Launch Library 2.

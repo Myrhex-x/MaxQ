@@ -1,0 +1,18 @@
+// Shared build settings for every target and configuration.
+//
+// Signing: the Apple Developer Team ID is deliberately NOT stored in the project or in git.
+// Put it in Config/Local.xcconfig (gitignored), e.g.
+//
+//     DEVELOPMENT_TEAM = ABCDE12345
+//
+// or pass DEVELOPMENT_TEAM=... on the xcodebuild command line. Without it you can still
+// build unsigned with CODE_SIGNING_ALLOWED=NO.
+
+DEVELOPMENT_TEAM =
+
+// Sparkle update feed. Empty until a public release feed exists; while it's empty the
+// app hides "Check for Updates" instead of pointing at a host we don't control.
+MAXQ_UPDATE_FEED_URL =
+MAXQ_UPDATE_PUBLIC_KEY =
+
+#include? "Local.xcconfig"
